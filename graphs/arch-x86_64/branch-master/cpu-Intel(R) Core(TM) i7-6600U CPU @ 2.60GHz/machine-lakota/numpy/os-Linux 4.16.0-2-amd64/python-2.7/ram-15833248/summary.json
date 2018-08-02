@@ -1,0 +1,394 @@
+[
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.0936780603014993e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0023310074099999988, 
+        "name": "benchmarks.TimeSuite.time_allpairs_distances", 
+        "pretty_name": "benchmarks.TimeSuite.time_allpairs_distances", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 7.921856381909638e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0023618229400000023, 
+        "name": "benchmarks.TimeSuite.time_allpairs_distances_loops", 
+        "pretty_name": "benchmarks.TimeSuite.time_allpairs_distances_loops", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.7480730653265304e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0007188945800000002, 
+        "name": "benchmarks.TimeSuite.time_arc_distance", 
+        "pretty_name": "benchmarks.TimeSuite.time_arc_distance", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.1910540502512507e-07, 
+        "last_rev": 3998, 
+        "last_value": 3.096503749999999e-05, 
+        "name": "benchmarks.TimeSuite.time_check_mask", 
+        "pretty_name": "benchmarks.TimeSuite.time_check_mask", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 3.826224206030161e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.002682565910000001, 
+        "name": "benchmarks.TimeSuite.time_conv", 
+        "pretty_name": "benchmarks.TimeSuite.time_conv", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.314666879397002e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0034857863499999997, 
+        "name": "benchmarks.TimeSuite.time_create_grid", 
+        "pretty_name": "benchmarks.TimeSuite.time_create_grid", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.635675407035176e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0014994644899999998, 
+        "name": "benchmarks.TimeSuite.time_cronbach", 
+        "pretty_name": "benchmarks.TimeSuite.time_cronbach", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00013909124572864266, 
+        "last_rev": 3998, 
+        "last_value": 0.008126379799999995, 
+        "name": "benchmarks.TimeSuite.time_diffusion", 
+        "pretty_name": "benchmarks.TimeSuite.time_diffusion", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0001602460934673357, 
+        "last_rev": 3998, 
+        "last_value": 0.010282726600000004, 
+        "name": "benchmarks.TimeSuite.time_euclidean_distance_square", 
+        "pretty_name": "benchmarks.TimeSuite.time_euclidean_distance_square", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0001572645039698498, 
+        "last_rev": 3998, 
+        "last_value": 0.004278587899999997, 
+        "name": "benchmarks.TimeSuite.time_evolve", 
+        "pretty_name": "benchmarks.TimeSuite.time_evolve", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 9.122231306532631e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0035945950999999978, 
+        "name": "benchmarks.TimeSuite.time_fdtd", 
+        "pretty_name": "benchmarks.TimeSuite.time_fdtd", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.3272621758794042e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0008053825599999986, 
+        "name": "benchmarks.TimeSuite.time_fft", 
+        "pretty_name": "benchmarks.TimeSuite.time_fft", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0007073691155778916, 
+        "last_rev": 3998, 
+        "last_value": 0.03953559800000006, 
+        "name": "benchmarks.TimeSuite.time_grayscott", 
+        "pretty_name": "benchmarks.TimeSuite.time_grayscott", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0001460219825125627, 
+        "last_rev": 3998, 
+        "last_value": 0.0014489333600000022, 
+        "name": "benchmarks.TimeSuite.time_grouping", 
+        "pretty_name": "benchmarks.TimeSuite.time_grouping", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            3451, 
+            3454
+        ], 
+        "idx": null, 
+        "last_err": 5.548014480519494e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.006280040399999997, 
+        "name": "benchmarks.TimeSuite.time_growcut", 
+        "pretty_name": "benchmarks.TimeSuite.time_growcut", 
+        "prev_value": 0.0064102463
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00026991989030150854, 
+        "last_rev": 3998, 
+        "last_value": 0.005646295499999998, 
+        "name": "benchmarks.TimeSuite.time_harris", 
+        "pretty_name": "benchmarks.TimeSuite.time_harris", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.8566990502512627e-07, 
+        "last_rev": 3998, 
+        "last_value": 7.300705799999996e-06, 
+        "name": "benchmarks.TimeSuite.time_hasting", 
+        "pretty_name": "benchmarks.TimeSuite.time_hasting", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.6833592613065373e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0019082610899999986, 
+        "name": "benchmarks.TimeSuite.time_hyantes", 
+        "pretty_name": "benchmarks.TimeSuite.time_hyantes", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.640306040200996e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0020727790199999998, 
+        "name": "benchmarks.TimeSuite.time_julia", 
+        "pretty_name": "benchmarks.TimeSuite.time_julia", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 9.77305326633176e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0011981890300000009, 
+        "name": "benchmarks.TimeSuite.time_l2norm", 
+        "pretty_name": "benchmarks.TimeSuite.time_l2norm", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.588690120603062e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0038170135999999744, 
+        "name": "benchmarks.TimeSuite.time_laplacien", 
+        "pretty_name": "benchmarks.TimeSuite.time_laplacien", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 7.440025025125555e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0014409583800000015, 
+        "name": "benchmarks.TimeSuite.time_local_maxima", 
+        "pretty_name": "benchmarks.TimeSuite.time_local_maxima", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.2214782462311561e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0024236985099999986, 
+        "name": "benchmarks.TimeSuite.time_log_likelihood", 
+        "pretty_name": "benchmarks.TimeSuite.time_log_likelihood", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 2.4481941256281486e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.002886657060000002, 
+        "name": "benchmarks.TimeSuite.time_lstsqr", 
+        "pretty_name": "benchmarks.TimeSuite.time_lstsqr", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.131752678392035e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0031158089999999915, 
+        "name": "benchmarks.TimeSuite.time_make_decision", 
+        "pretty_name": "benchmarks.TimeSuite.time_make_decision", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            3454, 
+            3457
+        ], 
+        "idx": null, 
+        "last_err": 5.219764836601367e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0053983903, 
+        "name": "benchmarks.TimeSuite.time_mandel", 
+        "pretty_name": "benchmarks.TimeSuite.time_mandel", 
+        "prev_value": 0.005510764750000008
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.1791398090452261e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0007736879600000002, 
+        "name": "benchmarks.TimeSuite.time_multiple_sum", 
+        "pretty_name": "benchmarks.TimeSuite.time_multiple_sum", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 3.903141281406989e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.003951500900000004, 
+        "name": "benchmarks.TimeSuite.time_pairwise", 
+        "pretty_name": "benchmarks.TimeSuite.time_pairwise", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.2580342613065344e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.001276727430000002, 
+        "name": "benchmarks.TimeSuite.time_periodic_dist", 
+        "pretty_name": "benchmarks.TimeSuite.time_periodic_dist", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.481877673366833e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.00016485504799999994, 
+        "name": "benchmarks.TimeSuite.time_repeating", 
+        "pretty_name": "benchmarks.TimeSuite.time_repeating", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            null, 
+            3972
+        ], 
+        "idx": null, 
+        "last_err": 9.927756666666531e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.007303395700000004, 
+        "name": "benchmarks.TimeSuite.time_reverse_cumsum", 
+        "pretty_name": "benchmarks.TimeSuite.time_reverse_cumsum", 
+        "prev_value": 0.005167668749999998
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 2.0634962060301476e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0012502845899999993, 
+        "name": "benchmarks.TimeSuite.time_rosen", 
+        "pretty_name": "benchmarks.TimeSuite.time_rosen", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.3161767336682705e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0005130004500000007, 
+        "name": "benchmarks.TimeSuite.time_slowparts", 
+        "pretty_name": "benchmarks.TimeSuite.time_slowparts", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 6.078035175879381e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.004495108599999997, 
+        "name": "benchmarks.TimeSuite.time_smoothing", 
+        "pretty_name": "benchmarks.TimeSuite.time_smoothing", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            null, 
+            3972
+        ], 
+        "idx": null, 
+        "last_err": 5.6418488888892444e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0043104034999999815, 
+        "name": "benchmarks.TimeSuite.time_specialconvolve", 
+        "pretty_name": "benchmarks.TimeSuite.time_specialconvolve", 
+        "prev_value": 0.003256274409999999
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 9.313320351758593e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0011949804799999985, 
+        "name": "benchmarks.TimeSuite.time_vibr_energy", 
+        "pretty_name": "benchmarks.TimeSuite.time_vibr_energy", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.2664588743718636e-05, 
+        "last_rev": 3998, 
+        "last_value": 0.0006527078599999991, 
+        "name": "benchmarks.TimeSuite.time_wave", 
+        "pretty_name": "benchmarks.TimeSuite.time_wave", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 9.722130050251387e-06, 
+        "last_rev": 3998, 
+        "last_value": 0.0008095041199999997, 
+        "name": "benchmarks.TimeSuite.time_wdist", 
+        "pretty_name": "benchmarks.TimeSuite.time_wdist", 
+        "prev_value": null
+    }
+]

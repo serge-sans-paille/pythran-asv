@@ -1,0 +1,40 @@
+{
+    "regressions": [
+        [
+            "benchmarks.TimeSuite.time_specialconvolve", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_specialconvolve.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        3972, 
+                        0.003256274409999999, 
+                        0.0043104034999999815
+                    ]
+                ], 
+                0.0043104034999999815, 
+                0.003256274409999999
+            ]
+        ], 
+        [
+            "benchmarks.TimeSuite.time_reverse_cumsum", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_reverse_cumsum.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        3972, 
+                        0.005167668749999998, 
+                        0.007303395700000004
+                    ]
+                ], 
+                0.007303395700000004, 
+                0.005167668749999998
+            ]
+        ]
+    ]
+}
