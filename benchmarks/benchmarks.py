@@ -9,7 +9,7 @@ import sys
 import shutil
 
 kernels = sorted(glob.glob(os.path.join(os.path.dirname(__file__),
-                                 '..', 'kernels', '*.py')))
+                                 '..', 'numpy-benchmarks', 'benchmarks', '*.py')))
 
 class TimeSuite:
     """
