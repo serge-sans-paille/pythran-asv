@@ -7,6 +7,7 @@ import glob
 import re
 import sys
 import shutil
+import tempfile
 
 kernels = sorted(glob.glob(os.path.join(os.path.dirname(__file__),
                                  '..', 'numpy-benchmarks', 'benchmarks', '*.py')))
@@ -31,7 +32,23 @@ class TimeSuite:
             try:
                 pythran.compile_pythranfile(filename, output_file=output)
             except Exception:
-                pass
+                # workaround pythran annotation change
+                tmpd = tempfile.mkdtemp()
+                tmpf = os.path.join(tmpd, basename)
+                with open(tmpf, 'w') as fout:
+                    with open(filename) as fin:
+                        outlines = []
+                        for line in fin.readlines():
+                            if line.startswith('#pythran'):
+                                line = re.sub(r'\d+', ':', line)
+                            outlines.append(line)
+                        fout.write("\n".join(outlines))
+                try:
+                    pythran.compile_pythranfile(tmpf, output_file=output)
+                except Exception:
+                    pass
+                finally:
+                    shutil.rmtree(tmpd)
 
     def setup(self):
         sys.path.insert(0, ".")
