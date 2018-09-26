@@ -9,14 +9,17 @@ import sys
 import shutil
 import tempfile
 
+
 kernels = sorted(glob.glob(os.path.join(os.path.dirname(__file__),
-                                 '..', 'numpy-benchmarks', 'benchmarks', '*.py')))
+                                        '..', 'numpy-benchmarks', 'benchmarks', '*.py')))
 
 class TimeSuite:
     """
     An example benchmark that times the performance of various kinds
     of iterating over dictionaries in Python.
     """
+
+    timeout = 100000000.
 
     def __init__(self):
         #self.repeat = 11
@@ -40,12 +43,14 @@ class TimeSuite:
                         outlines = []
                         for line in fin.readlines():
                             if line.startswith('#pythran'):
-                                line = re.sub(r'\d+', ':', line)
+                                line = re.sub(r'\[\d+', '[:', line)
+                                line = re.sub(r'\d+\]', ':]', line)
+                                line = re.sub(r',\s*\d+\s*,', ',:,', line)
                             outlines.append(line)
-                        fout.write("\n".join(outlines))
+                        fout.write(''.join(outlines))
                 try:
                     pythran.compile_pythranfile(tmpf, output_file=output)
-                except Exception:
+                except Exception as e:
                     pass
                 finally:
                     shutil.rmtree(tmpd)
@@ -79,6 +84,8 @@ def make_eval(filename, function, r, e):
     def runner(self):
         e[function] = getattr(__import__(function), function)
         eval(r, e)
+    with open(filename) as src:
+        runner.__doc__ = src.read()
     return runner
 
 for filename in kernels:
