@@ -9,13 +9,55 @@
                 [
                     [
                         null, 
-                        3950, 
-                        0.007274342599999994, 
-                        0.008157062400000003
+                        3252, 
+                        0.007270093500000008, 
+                        0.008159303149999996
+                    ], 
+                    [
+                        null, 
+                        3377, 
+                        0.008159303149999996, 
+                        0.008533244500000004
                     ]
                 ], 
-                0.008157062400000003, 
-                0.007274342599999994
+                0.00840169879999999, 
+                0.007270093500000008
+            ]
+        ], 
+        [
+            "benchmarks.TimeSuite.time_vibr_energy", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_vibr_energy.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        3402, 
+                        0.0015505001549999996, 
+                        0.0020772813
+                    ]
+                ], 
+                0.0020772813, 
+                0.0015505001549999996
+            ]
+        ], 
+        [
+            "benchmarks.TimeSuite.time_arc_distance", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_arc_distance.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        3402, 
+                        0.0009363374750000009, 
+                        0.0014951930400000002
+                    ]
+                ], 
+                0.0014951930400000002, 
+                0.0009363374750000009
             ]
         ], 
         [
@@ -27,13 +69,49 @@
                 [
                     [
                         null, 
-                        3950, 
-                        0.0009016051100000011, 
-                        0.0010465029200000008
+                        3252, 
+                        0.0009016593950000007, 
+                        0.0010457787900000003
                     ]
                 ], 
-                0.0010465029200000008, 
-                0.0009016051100000011
+                0.0010457787900000003, 
+                0.0009016593950000007
+            ]
+        ], 
+        [
+            "benchmarks.TimeSuite.time_log_likelihood", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_log_likelihood.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        3402, 
+                        0.003161760204999999, 
+                        0.004601275500000002
+                    ]
+                ], 
+                0.004601275500000002, 
+                0.003161760204999999
+            ]
+        ], 
+        [
+            "benchmarks.TimeSuite.time_slowparts", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_slowparts.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        3402, 
+                        0.0006717413149999996, 
+                        0.0007995271000000015
+                    ]
+                ], 
+                0.0007995271000000015, 
+                0.0006717413149999996
             ]
         ], 
         [
@@ -45,13 +123,13 @@
                 [
                     [
                         null, 
-                        3950, 
-                        0.0015011530850000008, 
-                        0.0016507962300000001
+                        3252, 
+                        0.0015034919550000014, 
+                        0.0016543635300000014
                     ]
                 ], 
-                0.0016507962300000001, 
-                0.0015011530850000008
+                0.0017045658300000022, 
+                0.0015034919550000014
             ]
         ]
     ]
