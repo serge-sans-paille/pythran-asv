@@ -1,99 +1,75 @@
 {
     "regressions": [
         [
-            "benchmarks.TimeSuite.time_growcut", 
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_growcut.json", 
+            "benchmarks.TimeSuite.time_allpairs_distances", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_allpairs_distances.json", 
             {}, 
             null, 
             [
                 [
                     [
                         null, 
-                        3252, 
-                        0.007270093500000008, 
-                        0.008159303149999996
-                    ], 
-                    [
-                        null, 
-                        3377, 
-                        0.008159303149999996, 
-                        0.008533244500000004
+                        4094, 
+                        0.0005766880299999988, 
+                        0.0006212670800000009
                     ]
                 ], 
-                0.00840169879999999, 
-                0.007270093500000008
+                0.0006212670800000009, 
+                0.0005766880299999988
             ]
         ], 
         [
-            "benchmarks.TimeSuite.time_vibr_energy", 
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_vibr_energy.json", 
+            "benchmarks.TimeSuite.time_diffusion", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_diffusion.json", 
             {}, 
             null, 
             [
                 [
                     [
                         null, 
-                        3402, 
-                        0.0015505001549999996, 
-                        0.0020772813
+                        4094, 
+                        0.006040845900000003, 
+                        0.007565123799999985
                     ]
                 ], 
-                0.0020772813, 
-                0.0015505001549999996
+                0.007565123799999985, 
+                0.006040845900000003
             ]
         ], 
         [
-            "benchmarks.TimeSuite.time_arc_distance", 
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_arc_distance.json", 
+            "benchmarks.TimeSuite.time_hyantes", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_hyantes.json", 
             {}, 
             null, 
             [
                 [
                     [
                         null, 
-                        3402, 
-                        0.0009363374750000009, 
-                        0.0014951930400000002
+                        4094, 
+                        0.0012374029400000009, 
+                        0.00156939473
                     ]
                 ], 
-                0.0014951930400000002, 
-                0.0009363374750000009
+                0.00156939473, 
+                0.0012374029400000009
             ]
         ], 
         [
-            "benchmarks.TimeSuite.time_wdist", 
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_wdist.json", 
+            "benchmarks.TimeSuite.time_grayscott", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_grayscott.json", 
             {}, 
             null, 
             [
                 [
                     [
                         null, 
-                        3252, 
-                        0.0009016593950000007, 
-                        0.0010457787900000003
+                        4094, 
+                        0.03568862400000006, 
+                        0.03773505300000002
                     ]
                 ], 
-                0.0010457787900000003, 
-                0.0009016593950000007
-            ]
-        ], 
-        [
-            "benchmarks.TimeSuite.time_log_likelihood", 
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_log_likelihood.json", 
-            {}, 
-            null, 
-            [
-                [
-                    [
-                        null, 
-                        3402, 
-                        0.003161760204999999, 
-                        0.004601275500000002
-                    ]
-                ], 
-                0.004601275500000002, 
-                0.003161760204999999
+                0.03773505300000002, 
+                0.03568862400000006
             ]
         ], 
         [
@@ -105,31 +81,13 @@
                 [
                     [
                         null, 
-                        3402, 
-                        0.0006717413149999996, 
-                        0.0007995271000000015
+                        4094, 
+                        0.000371395790000002, 
+                        0.0006313431100000022
                     ]
                 ], 
-                0.0007995271000000015, 
-                0.0006717413149999996
-            ]
-        ], 
-        [
-            "benchmarks.TimeSuite.time_periodic_dist", 
-            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz/machine-lakota/numpy/os-Linux 4.16.0-2-amd64/python-2.7/ram-15833248/benchmarks.TimeSuite.time_periodic_dist.json", 
-            {}, 
-            null, 
-            [
-                [
-                    [
-                        null, 
-                        3252, 
-                        0.0015034919550000014, 
-                        0.0016543635300000014
-                    ]
-                ], 
-                0.0017045658300000022, 
-                0.0015034919550000014
+                0.0006313431100000022, 
+                0.000371395790000002
             ]
         ]
     ]
